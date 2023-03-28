@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Resources/style.css">
+    <title>HTML Input Reference</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Input Reference</h1>
+    </header>
+    <main>
+     <div class="one">        
+        <h2 class="description"><span>&lt;input&gt;</span> Description</h2>
+        <p class="dcontent">The <span>&lt;input&gt;</span> HTML element is used to create interactive controls 
+            for web-based forms in order to accept data from the user; a wide variety of types of 
+            input data and control widgets are available, depending on the device and user agent.
+             The <span>&lt;input&gt;</span> element is one of the most powerful and complex in all of HTML due 
+             to the sheer number of combinations of input types and attributes.</p>
+     </div>
+     <div class="two">
+        <h2 class="headings">Input Types</h2>
+        <table>
+            <thead>
+                <th>Type</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Button</td>
+                    <td>A push button with no default behavior displaying the value of the value attribute, empty by default.</td>
+                </tr>
+                <tr>
+                    <td>Checkbox</td>
+                    <td>A check box allowing single values to be selected/deselected</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>A control for specifying a color; opening a color picker when active in supporting browsers</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>A control for entering a date (year, month, and day, with no time). 
+                        Opens a date picker or numeric wheels for year, month, day when active in supporting browsers</td>
+                </tr>
+                <tr>
+                    <td>Datetime-local</td>
+                    <td>A control for entering a date and time, with no time zone. 
+                        Opens a date picker or numeric wheels for date- and time-components when active in supporting browsers</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>A field for editing an email address. Looks like a text input, 
+                        but has validation parameters and relevant keyboard in supporting 
+                        browsers and devices with dynamic keyboards</td>
+                </tr>
+                <tr>
+                    <td>File</td>
+                    <td>A control that lets the user select a file. Use the accept attribute 
+                        to define the types of files that the control can select</td>
+                </tr>
+                <tr>
+                    <td>Hidden</td>
+                    <td>A control that is not displayed but whose value is submitted to the server. 
+                        There is an example in the next column, but it's hidden!</td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td>A graphical submit button. Displays an image defined by the src attribute. 
+                        The alt attribute displays if the image src is missing</td>
+                </tr>
+                <tr>
+                    <td>Month</td>
+                    <td>A control for entering a month and year, with no time zone</td>
+                </tr>
+                <tr>
+                    <td>Number</td>
+                    <td>A control for entering a number. Displays a spinner and adds default validation. 
+                        Displays a numeric keypad in some devices with dynamic keypads</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>A single-line text field whose value is obscured. Will alert user if site is not secure</td>
+                </tr>
+                <tr>
+                    <td>Radio</td>
+                    <td>A radio button, allowing a single value to be selected out of multiple choices with the same name value</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>A control for entering a number whose exact value is not important. 
+                        Displays as a range widget defaulting to the middle value. 
+                        Used in conjunction min and max to define the range of acceptable values</td>
+                </tr>
+                <tr>
+                    <td>Reset</td>
+                    <td>A button that resets the contents of the form to default values. Not recommended</td>
+                </tr>
+                <tr>
+                    <td>Search</td>
+                    <td>A single-line text field for entering search strings. 
+                        Line-breaks are automatically removed from the input value. 
+                        May include a delete icon in supporting browsers that can be used to clear the field. 
+                        Displays a search icon instead of enter key on some devices with dynamic keypads</td>
+                </tr>
+                <tr>
+                    <td>Submit</td>
+                    <td>A button that submits the form</td>
+                </tr>
+                <tr>
+                    <td>Tel</td>
+                    <td>A control for entering a telephone number. Displays a telephone keypad in some devices with dynamic keypads</td>
+                </tr>
+                <tr>
+                    <td>Text</td>
+                    <td>The default value. A single-line text field. Line-breaks are automatically removed from the input value</td>
+                </tr>
+                <tr>
+                    <td>Time</td>
+                    <td>A control for entering a time value with no time zone</td>
+                </tr>
+                <tr>
+                    <td>Url</td>
+                    <td>A field for entering a URL. Looks like a text input, but has validation parameters and relevant keyboard in supporting browsers and devices with dynamic keyboards</td>
+                </tr>
+                <tr>
+                    <td>Week</td>
+                    <td>A control for entering a date consisting of a week-year number and a week number with no time zone</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+     <div class="three">
+        <h2 class="headings">Input Attributes</h2>
+        <table>
+            <thead>
+                <th>Attribute</th>
+                <th>Type or Types</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>accept</td>
+                    <td>file</td>
+                    <td>Hint for expected file type in file upload controls</td>
+                </tr>
+                <tr>
+                    <td>alt</td>
+                    <td>image</td>
+                    <td>alt attribute for the image type. Required for accessibility</td>
+                </tr>
+                <tr>
+                    <td>autocomplete</td>
+                    <td>all except checkbox, radio, and buttons</td>
+                    <td>Hint for form autofill feature</td>
+                </tr>
+                <tr>
+                    <td>capture</td>
+                    <td>file</td>
+                    <td>Media capture input method in file upload controls</td>
+                </tr>
+                <tr>
+                    <td>checked</td>
+                    <td>checkbox, radio</td>
+                    <td>Whether the command or control is checked</td>
+                </tr>
+                <tr>
+                    <td>dirname</td>
+                    <td>search, text</td>
+                    <td>Name of form field to use for sending the element's directionality in form submission</td>
+                </tr>
+                <tr>
+                    <td>disabled</td>
+                    <td>all</td>
+                    <td>Whether the form control is disabled</td>
+                </tr>
+                <tr>
+                    <td>form</td>
+                    <td>all</td>
+                    <td>Associates the control with a form element</td>
+                </tr>
+                <tr>
+                    <td>formaction</td>
+                    <td>image, submit</td>
+                    <td>URL to use for form submission</td>
+                </tr>
+                <tr>
+                    <td>formenctype</td>
+                    <td>image, submit</td>
+                    <td>Form data set encoding type to use for form submission</td>
+                </tr>
+                <tr>
+                    <td>formmethod</td>
+                    <td>image, submit</td>
+                    <td>HTTP method to use for form submission</td>
+                </tr>
+                <tr>
+                    <td>formnovalidate</td>
+                    <td>image, submit</td>
+                    <td>Bypass form control validation for form submission</td>
+                </tr>
+                <tr>
+                    <td>formtarget</td>
+                    <td>image, submit</td>
+                    <td>Browsing context for form submission</td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>image</td>
+                    <td>Same as height attribute for &lt;img&gt;; vertical dimension</td>
+                </tr>
+                <tr>
+                    <td>list</td>
+                    <td>all except hidden, password, checkbox, radio, and buttons</td>
+                    <td>Value of the id attribute of the &lt;datalist&gt; of autocomplete options</td>
+                </tr>
+                <tr>
+                    <td>max</td>
+                    <td>date, month, week, time, datetime-local, number, range</td>
+                    <td>Maximum value</td>
+                </tr>
+                <tr>
+                    <td>maxlength</td>
+                    <td>text, search, url, tel, email, password</td>
+                    <td>Maximum length (number of characters) of value</td>
+                </tr>
+                <tr>
+                    <td>min</td>
+                    <td>date, month, week, time, datetime-local, number, range</td>
+                    <td>Minimum value</td>
+                </tr>
+                <tr>
+                    <td>minlength</td>
+                    <td>text, search, url, tel, email, password</td>
+                    <td>Minimum length (number of characters) of value</td>
+                </tr>
+                <tr>
+                    <td>multiple</td>
+                    <td>email, file</td>
+                    <td>Boolean. Whether to allow multiple values</td>
+                </tr>
+                <tr>
+                    <td>name</td>
+                    <td>all</td>
+                    <td>Name of the form control. Submitted with the form as part of a name/value pair</td>
+                </tr>
+                <tr>
+                    <td>pattern</td>
+                    <td>text, search, url, tel, email, password</td>
+                    <td>Pattern the value must match to be valid</td>
+                </tr>
+                <tr>
+                    <td>placeholder</td>
+                    <td>text, search, url, tel, email, password, number</td>
+                    <td>Text that appears in the form control when it has no value set</td>
+                </tr>
+                <tr>
+                    <td>readonly</td>
+                    <td>all except hidden, range, color, checkbox, radio, and buttons</td>
+                    <td>Boolean. The value is not editable</td>
+                </tr>
+                <tr>
+                    <td>required</td>
+                    <td>all except hidden, range, color, and buttons</td>
+                    <td>Boolean. A value is required or must be check for the form to be submittable</td>
+                </tr>
+                <tr>
+                    <td>size</td>
+                    <td>text, search, url, tel, email, password/td>
+                    <td>Size of the control</td>
+                </tr>
+                <tr>
+                    <td>src</td>
+                    <td>image</td>
+                    <td>Same as src attribute for &lt;img&gt;; address of image resource</td>
+                </tr>
+                <tr>
+                    <td>step</td>
+                    <td>date, month, week, time, datetime-local, number, range</td>
+                    <td>Incremental values that are valid</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>all</td>
+                    <td>Type of form control</td>
+                </tr>
+                <tr>
+                    <td>value</td>
+                    <td>all except image</td>
+                    <td>The initial value of the control</td>
+                </tr>
+                <tr>
+                    <td>width</td>
+                    <td>image</td>
+                    <td>Same as width attribute for &lt;img&gt;</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+
+    </main>
+</body>
+</html>
